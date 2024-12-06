@@ -11,7 +11,7 @@ const App = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        import.meta.env.VITE_API,
+        `${import.meta.env.VITE_API}`,
         { url }
       );
       setShortUrl(response.data.shortUrl);
