@@ -1,0 +1,113 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e90ff, #00bcd4);
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Shared styles for both boxes */
+.shortener-box, .result-box {
+    background-color: #fff;
+    color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 30%;
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Input field */
+.shortener-box input[type="url"] {
+    padding: 12px;
+    width: 70%;
+    margin-right: 10px;
+    border: 2px solid #1e90ff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.shortener-box input[type="url"]:focus {
+   
+    border-color: #00bcd4;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 188, 212, 0.5);
+}
+
+/* Button styles */
+button {
+    margin-top: 4%;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    background: linear-gradient(135deg, #1e90ff, #00bcd4);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #00bcd4, #1e90ff);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Back button */
+.back-button {
+    background: none;
+    color: #1e90ff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.back-button:hover {
+    color: #eff3f3;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Link styling */
+.result-box a {
+     text-decoration: none;
+    color: #00bcd4;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.result-box a:hover {
+    color: #1e90ff;
+    text-shadow: 0 0 8px rgba(30, 144, 255, 0.7);
+}
