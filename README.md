@@ -1,8 +1,13 @@
- # URL Shortener Frontend
+# URL Shortener Frontend  
 
-Frontend for a URL Shortener built with React.js and Vite. Connects to a backend API hosted on AWS EC2.
+A sleek and efficient frontend for a **URL Shortener**, built with <code>React.js</code>. This application seamlessly integrates with a powerful backend API hosted on <code>AWS EC2</code>.  
 
-## Features
-- Input long URLs to generate shortened links.
-- Displays the shortened URL in a responsive design.
-- Seamless integration with the backend API.
+🌐 **Live Demo**: [URL Shortener Frontend](https://urlzipxd.vercel.app/)  
+
+## ✨ Features  
+
+- ✍️ **Input Long URLs**: Paste your long links to generate short and concise URLs effortlessly.  
+- 🔗 **Shortened Links Display**: Get your short URL displayed in a responsive, user-friendly interface.  
+- ⚡ **Backend Integration**: Smooth and robust communication with the API to ensure reliable functionality.  
+
+Get started by visiting the live app now! 🎉  
