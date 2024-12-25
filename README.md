@@ -2,7 +2,7 @@
 
 A sleek and efficient frontend for a **URL Shortener**, built with <code>React.js</code>. This application seamlessly integrates with a powerful backend API hosted on <code>AWS EC2</code>.  
 
-🌐 **Live Demo**: [URL Shortener Frontend](https://urlzipxd.vercel.app/)  
+🌐 **Live Demo**: <a href="https://urlzipxd.vercel.app/" target="_blank">URL Shortener Frontend</a>  
 
 ## ✨ Features  
 
